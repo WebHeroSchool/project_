@@ -5,7 +5,7 @@
 .header {
    display: flex;
    justify-content: space-between;
-   margin-bottom: 202px;
+   margin-bottom: 137px;
 }
 .menu {
  display: flex;
@@ -64,8 +64,9 @@
  width: 100%;
 }
 .main {
- padding: 0 45% 100px 0;
+ padding: 65px 49% 197px 0;
  background: top right no-repeat url(img/mainImg.svg);
+ background-size: 50%;
  }
 .main__title {
  margin: 0 0 40px 0;
@@ -74,13 +75,14 @@
 .main__subtitle {
  margin: 0 0 41px 0;
  font: 22px/25px Roboto, arial, helvetica, sans-serif;
+ width: 60%;
 }
 .main__button {
   display: inline-block;
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 14px 16px;
+  padding: 18px 34px 21px 20px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
