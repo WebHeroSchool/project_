@@ -1,11 +1,11 @@
 .wrapper {
    margin:auto;
-   width: 68%;
+   width: 80%;
 }
 .header {
    display: flex;
    justify-content: space-between;
-   margin-bottom: 200px;
+   margin-bottom: 202px;
 }
 .menu {
  display: flex;
@@ -15,7 +15,7 @@
  margin-right: 0;
 }
 .logo {
-  padding: 40px 0;
+  padding: 36px 0;
   padding-left: 44px;
   font: bold 24px/32px pt_serifbold, arial, helvetica, sans-serif;
   position: relative;
@@ -64,9 +64,8 @@
  width: 100%;
 }
 .main {
- padding: 0 67% 200px 0;
+ padding: 0 45% 100px 0;
  background: top right no-repeat url(img/mainImg.svg);
- background-size:contain;
  }
 .main__title {
  margin: 0 0 40px 0;
