@@ -95,9 +95,43 @@
  }
  #menu__toggle {
   display: none;
+  }
 }
 .menu__btn {
   display: none;
+}
+@media (max-width: 1270px) {
+  .wrapper {
+       width: 93%;
+       }
+.main__title {
+      font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+      margin: 0 0 36px 0;
+      }
+
+.header {
+      margin-bottom: 95px;
+     }
+.menu__item {
+      font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+     }
+.logo {
+       padding: 30px 0;
+       padding-left: 40px;
+       }
+.main {
+    padding: 20px 50% 197px 0;
+    background-size: 56%;
+}
+.main__button {
+    font: 14px/16px Roboto, arial, helvetica, sans-serif;
+    padding: 15px 20px 15px 20px;
+  }
+.main__subtitle {
+margin: 0 0 41px 0;
+font: 18px/21px Roboto, arial, helvetica, sans-serif;
+width: 80%;
+    }
 }
  @media (max-width: 768px) {
   .menu {
